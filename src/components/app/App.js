@@ -5,8 +5,12 @@ import About from '../about/About';
 import Home from '../home/Home';
 import User from '../user/User'
 import { Doubler } from '../user/User';
-import { MemoryRouter as Router, Routes, Link, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Link, Route } from 'react-router-dom';
 
+// types or Routers
+    // HashRouter
+    // MemoryRouter
+    // BrowserRouter
 
 function App() {
   return (
